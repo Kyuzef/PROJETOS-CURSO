@@ -9,6 +9,8 @@ def draw():
     background(0)
     textSize(50)
     text(key,width/2,height/2)
+    fill(0,0,255)
+    ellipse(300,300,100,100)
     fill(255,255,0)
     ellipse(x,y,600,600)
     #x=800,y=400
